@@ -1,0 +1,12 @@
+[project]
+name = "dbserver-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.14.1",
+    "langchain>=1.2.0",
+    "langchain-mcp-adapters>=0.2.1",
+    "langchain-ollama>=1.0.1",
+]
